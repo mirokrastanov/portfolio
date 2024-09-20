@@ -11,13 +11,16 @@ const Navbar = () => {
         logo: 'max-md-250:absolute max-md-250:top-2 max-md-250:left-1/2 max-md-250:-translate-x-1/2 max-md-250:pr-2',
         icons: 'max-md-250:mt-14 max-md-250:mx-auto',
     };
-
+    const sub300 = {
+        logo: 'max-md-300:mx-0',
+    };
 
     return (<>
         <nav className='mb-20 flex items-center justify-between py-4'>
             <div className='flex flex-shrink-0 items-center'>
-                <img src={logo} alt='logo' className={`h-12 ${sub250.logo}`} />
+                <img src={logo} alt='logo' className={`mx-2 h-10 ${sub250.logo} ${sub300.logo}`} />
             </div>
+
             <div className={`m-8 flex items-center justify-center gap-4 text-2xl ${sub250.icons}`}>
                 <FaLinkedin />
                 <FaGithub />
