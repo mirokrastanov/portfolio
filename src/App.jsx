@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Technologies from './components/Technologies';
 
 const App = () => {
   return (
@@ -12,10 +13,11 @@ const App = () => {
       </div>
 
       {/* CONTENT */}
-      <div className='container mx-auto px-8 max-md-300:px-0 max-md-300:ml-0'>
+      <div className='container mx-auto px-8 max-md-500:px-4 max-md-300:ml-0'>
         <Navbar />
         <Hero />
         <About />
+        <Technologies />
       </div>
     </div>
   )
