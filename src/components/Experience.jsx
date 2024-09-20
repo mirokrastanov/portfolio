@@ -19,7 +19,7 @@ const Experience = () => {
                             <p className='mb-4 text-neutral-400'>{xp.description}</p>
                             <div className='flex flex-wrap gap-2'>
                                 {xp.technologies.map((tech, i) => (
-                                    <span key={i} className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500'>
+                                    <span key={i} className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 border border-neutral-800'>
                                         {tech}
                                     </span>
                                 ))}
