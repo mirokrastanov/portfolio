@@ -3,7 +3,7 @@ import { HERO_CONTENT } from '../constants';
 import profilePic from '../assets/profile.png';
 
 const Hero = () => {
-    return (<>
+    return (
         <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
             <article className='flex flex-wrap'>
                 <section className='w-full lg:w-1/2'>
@@ -25,8 +25,7 @@ const Hero = () => {
                 </section>
             </article>
         </div>
-
-    </>)
+    )
 }
 
 export default Hero;
