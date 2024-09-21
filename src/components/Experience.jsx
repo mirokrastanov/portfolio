@@ -34,8 +34,8 @@ const Experience = () => {
                             <div className='flex flex-wrap gap-2'>
                                 {xp.technologies.map((tech, i) => (
                                     <motion.span key={i} className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 border border-neutral-800'
-                                        whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 200 }}
-                                        transition={{ duration: 1, delay: Number(`0.${5 + i}`) }}>
+                                        whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
+                                        transition={{ duration: 1, delay: Number(`0.${2 + i}`) }}>
                                         {tech}
                                     </motion.span>
                                 ))}
