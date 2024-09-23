@@ -10,15 +10,24 @@ const iconVariants = (duration) => ({
     },
 });
 
-const TechIcon = ({ Icon, color, title, duration }) => {
+const TechIcon = ({ Icon, color, title, duration, delay }) => {
 
     return (
-        <motion.div
-            className='rounded-2xl border-4 border-neutral-800 p-4' title={title}
-            variants={iconVariants(duration)} initial={'initial'} animate={'animate'}
-        >
-            <Icon className={`text-7xl rounded-xl ${color}`} />
-        </motion.div>
+        <motion.section
+            className='flex flex-wrap items-center justify-center gap-x-4 gap-y-6'
+            whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 1.5, delay, }}>
+
+            <motion.div
+                className='rounded-2xl border-4 border-neutral-800 p-4' title={title}
+                variants={iconVariants(duration)} initial={'initial'} animate={'animate'}
+            >
+
+                <Icon className={`text-7xl rounded-xl ${color}`} />
+
+            </motion.div>
+
+        </motion.section>
     )
 }
 
