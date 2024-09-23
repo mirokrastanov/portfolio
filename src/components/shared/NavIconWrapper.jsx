@@ -1,19 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const NavIconWrapper = ({
-    Icon,
-    color = 'text-neutral-300',
-    hover = 'text-white',
-    active = 'text-slate-300',
-    custom = '',
-    tooltip = '',
-    delay = 0,
-    footer = false,
+    Icon, handler, custom = '', tooltip = '', delay = 0,
+    incSize = false, footer = false,
 }) => {
     const [isTooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
     const [showTooltipContent, setShowTooltipContent] = useState(false);
     const tooltipRef = useRef(null);
+    const [colors, setColors] = useState('');
 
     const handleMouseMove = (event) => {
         const { clientX, clientY } = event;
@@ -75,15 +70,18 @@ const NavIconWrapper = ({
 
     return (
         <div
-            className={`relative ${color} hover:${hover} active:${active} transition-all select-none cursor-pointer p-2 max-md-500:p-1 max-md-300:p-0 ${custom}`}
+            className={`group relative transition-all select-none cursor-pointer p-2 max-md-500:p-1 max-md-300:p-0 
+                ${custom} `}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onClick={handler}
         >
-            <Icon className="h-6 w-6" />
+            <Icon className={`transition-all duration-100 ${incSize ? 'text-[28px]' : 'text-2xl'} text-white group-hover:text-sky-500 group-active:translate-y-1`} />
+
             {isTooltipVisible && (
                 <div
                     ref={tooltipRef}
-                    className={`fixed p-2 text-sm text-white bg-black rounded shadow-lg transition-opacity duration-200 ease-in-out ${showTooltipContent ? 'opacity-100' : 'opacity-0'} border border-neutral-900`}
+                    className={`fixed p-2 text-sm text-white bg-black/50 rounded shadow-lg transition-opacity duration-200 ease-in-out ${showTooltipContent ? 'opacity-100' : 'opacity-0'} border border-neutral-700`}
                     style={{
                         top: tooltipPosition.y,
                         left: tooltipPosition.x,
