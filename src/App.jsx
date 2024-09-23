@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollReminder from './components/shared/ScrollReminder';
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
   // ' container mx-auto px-8 max-md-500:px-4 max-md-300:ml-0 ';
@@ -17,6 +18,7 @@ const App = () => {
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
       <BackgroundGradient />
       <ScrollReminder />
+      <Toaster />
 
       <div className={`container-custom`}>
         <Navbar />
