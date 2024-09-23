@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { TfiEmail } from 'react-icons/tfi';
+import { TbMailFilled } from "react-icons/tb";
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import NavIconWrapper from './shared/NavIconWrapper';
 
@@ -27,10 +27,10 @@ const Navbar = () => {
             </div>
 
             <div className={`m-4 flex items-center justify-center gap-4 max-md-300:gap-x-3 max-md-250:gap-x-4 text-2xl ${sub250.i} ${sub300.i} ${sub500.i}`}>
-                <NavIconWrapper Icon={FaLinkedin} tooltip='LinkedIn' custom='p-2 max-md-500:p-1 max-md-300:p-0' />
-                <NavIconWrapper Icon={FaGithub} tooltip='GitHub' custom='p-2 max-md-500:p-1 max-md-300:p-0' />
-                <NavIconWrapper Icon={TfiEmail} tooltip='Email' custom='p-2 max-md-500:p-1 max-md-300:p-0' />
-                <NavIconWrapper Icon={BsFillPersonLinesFill} tooltip='Resume' custom='p-2 max-md-500:p-1 max-md-300:p-0' />
+                <NavIconWrapper Icon={FaLinkedin} tooltip='LinkedIn' custom='' />
+                <NavIconWrapper Icon={FaGithub} tooltip='GitHub' custom='' />
+                <NavIconWrapper Icon={TbMailFilled} tooltip='Email' custom='' incSize={true} />
+                <NavIconWrapper Icon={BsFillPersonLinesFill} tooltip='Resume' custom='' incSize={true} />
             </div>
         </nav>
     )
