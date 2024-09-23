@@ -7,13 +7,18 @@ import Technologies from './components/Technologies';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import ScrollReminder from './components/shared/ScrollReminder';
 
 const App = () => {
+  // ' container mx-auto px-8 max-md-500:px-4 max-md-300:ml-0 ';
+
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
       <BackgroundGradient />
+      <ScrollReminder />
 
-      <div className='container mx-auto px-8 max-md-500:px-4 max-md-300:ml-0'>
+      <div className={`container-custom`}>
         <Navbar />
         <Hero />
         <About />
@@ -21,6 +26,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </div>
   )
