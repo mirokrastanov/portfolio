@@ -15,7 +15,7 @@ const Hero = () => {
                 <section className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start lg:pl-8'>
                         <motion.h1
-                            className='pb-16 text-6xl font-thin lg:mt-16 lg:text-[4.5rem]'
+                            className='pb-8 text-6xl font-thin lg:mt-16 lg:text-[4.5rem]'
                             variants={container(0)} initial={`hidden`} whileInView={`visible`}>
                             Miro Krastanov
                         </motion.h1>

@@ -59,7 +59,7 @@ const Contact = () => {
                 {!submitted && <form onSubmit={handleSubmit}
                     className='flex flex-col max-w-[600px] w-full'
                 >
-                    <div className=''>
+                    <div className='pb-16'>
                         <motion.p
                             className='text-3xl font-bold inline-block border-b-4 border-pink-600 text-neutral-300'
                             whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
