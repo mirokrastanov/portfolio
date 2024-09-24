@@ -1,76 +1,91 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from '../assets/projects/project-1.png';
+import project2 from '../assets/projects/project-2.png';
+import project3 from '../assets/projects/project-3.png';
+import project4 from '../assets/projects/project-4.png';
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `A full-stack developer with 2+ years of experience in JavaScript, TypeScript, Angular, React, and Node.js. I build scalable web apps that deliver exceptional user experiences. I thrive on solving complex challenges and optimizing code for peak performance.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `My proficiency in JavaScript, Angular, React, Node.js, and TypeScript enables me to build robust and scalable web applications. With a deep understanding of database management, API development, cloud technologies and a proven ability to design, build, integrate APIs, and optimize performance. Strong background in troubleshooting, problem-solving, and user support, which enhances my ability to deliver user-centric solutions and drive operational efficiency. My 3+ years of experience in technical support have honed my ability to communicate effectively, collaborate with teams, and provide exceptional customer service. I am a dedicated and collaborative team player who is always eager to learn and grow. My goal is to create innovative solutions that improve people's lives.`;
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: 'NBA Dashboard',
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      '🏀📆💻▶️ Fully responsive Full Stack Web Application offering a modern dashboard with NBA stats, team rosters, standings, news, analysis, transactions, player stats, and more.',
+    technologies: ['⭐Award-Winning⭐', 'Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase', 'Puppeteer.js', 'REST API'],
   },
   {
-    title: "Task Management App",
+    title: 'TV Kingdom',
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      '🎬📺🏰🎉 TV Kingdom, where the magic of television meets the future: a modern, fully responsive, full-stack web application that unlocks a kingdom of limitless TV show data at your fingertips!',
+    technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'REST API', 'Appwrite.io', 'Firebase', 'Swiper.js'],
   },
   {
-    title: "Portfolio Website",
+    title: 'Real-Time Chat App',
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      '💬📱💻 Full Stack Web SPA enabling real-time messaging across multiple chat rooms, with live event updates and user presence.',
+    technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Web Sockets', 'Socket.io', 'REST API'],
   },
   {
-    title: "Blogging Platform",
+    title: 'Weather & Air Quality',
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      '☀️🌤️🌧️🌡️ Front End SPA with a modern fully responsive design, displaying weather, air quality, and more.',
+    technologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'REST API'],
+  },
+];
+
+export const EXPERIENCES = [
+  {
+    year: '2019 - 2022',
+    role: 'End User Services Engineer',
+    company: 'Premier Research',
+    description: `Spearheaded improvements in ticket resolution efficiency, driving a 50% increase and achieving a remarkable client satisfaction rate exceeding 97%. Developed and implemented automation scripts to streamline IT processes, reducing workload and enhancing user experience.`,
+    technologies: ['Admin', 'KB Author', 'Apps', 'Security', 'Automation'],
+  },
+  {
+    year: '2018 - 2019',
+    role: 'Help Desk Analyst',
+    company: 'HCL Technologies',
+    description: `Exemplified exceptional customer service, consistently surpassing targets with a client satisfaction rate over 90%. Managed escalations with precision, ensuring near-perfect case closure and timely follow-ups. Demonstrated expertise in user account administration, MFA, and Salesforce systems management.`,
+    technologies: ['Tickets', 'AD', 'MFA', 'SSO', 'VPN'],
+  },
+];
+
+export const EDUCATION = [
+  {
+    year: '2022 - 2023',
+    major: 'Software Engineering',
+    degree: ['Professional Degree', '2-Year Program', 'Bootcamp'],
+    university: 'Software University - Sofia, BG',
+    notable: ['Perfect GPA (6.00/6.00)', 'Best Angular Project out of 500+ projects'],
+  },
+  {
+    year: '2017 - 2018',
+    major: 'Mechanical Engineering',
+    degree: ['Master of Science (MSc)'],
+    university: 'Coventry University - Coventry, UK',
+    notable: ['Graduated with Merit'],
+  },
+  {
+    year: '2012 - 2017',
+    major: 'Mechanical Engineering',
+    degree: 'Bachelor of Science (BSc)',
+    university: 'Technical University of Sofia',
+    notable: [],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: 'm.krastanov@outlook.com',
+};
+
+export const URLs = {
+  LinkedIn: 'https://www.linkedin.com/in/mkrastanov/',
+  GitHub: 'https://github.com/mirokrastanov',
+  Email: 'mailto:m.krastanov@outlook.com',
+  Resume: 'https://drive.google.com/uc?export=download&id=18aVPd5TXGfy_prtjIrKx3BNVfFI80_H2',
 };
