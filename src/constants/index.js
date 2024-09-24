@@ -14,6 +14,8 @@ export const PROJECTS = [
     description:
       '🏀📆💻▶️ Fully responsive Full Stack Web Application offering a modern dashboard with NBA stats, team rosters, standings, news, analysis, transactions, player stats, and more.',
     technologies: ['⭐Award-Winning⭐', 'Angular', 'TypeScript', 'HTML', 'CSS', 'Firebase', 'Puppeteer.js', 'REST API'],
+    code: 'https://github.com/mirokrastanov/NBA-Dashboard',
+    demo: 'https://nba-1-480a7.web.app/',
   },
   {
     title: 'TV Kingdom',
@@ -21,6 +23,8 @@ export const PROJECTS = [
     description:
       '🎬📺🏰🎉 TV Kingdom, where the magic of television meets the future: a modern, fully responsive, full-stack web application that unlocks a kingdom of limitless TV show data at your fingertips!',
     technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'REST API', 'Appwrite.io', 'Firebase', 'Swiper.js'],
+    code: 'https://github.com/mirokrastanov/TV-Kingdom',
+    demo: 'https://kingdom-71759.web.app/',
   },
   {
     title: 'Real-Time Chat App',
@@ -28,6 +32,8 @@ export const PROJECTS = [
     description:
       '💬📱💻 Full Stack Web SPA enabling real-time messaging across multiple chat rooms, with live event updates and user presence.',
     technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Web Sockets', 'Socket.io', 'REST API'],
+    code: 'https://github.com/mirokrastanov/JS-Websocket-Chat',
+    demo: 'https://js-websocket-chat.onrender.com/',
   },
   {
     title: 'Weather & Air Quality',
@@ -35,6 +41,8 @@ export const PROJECTS = [
     description:
       '☀️🌤️🌧️🌡️ Front End SPA with a modern fully responsive design, displaying weather, air quality, and more.',
     technologies: ['Vanilla JavaScript', 'HTML', 'CSS', 'REST API'],
+    code: 'https://github.com/mirokrastanov/Responsive-Weather-Application',
+    demo: 'https://weather-a2a51.web.app/',
   },
 ];
 
@@ -44,14 +52,14 @@ export const EXPERIENCES = [
     role: 'End User Services Engineer',
     company: 'Premier Research',
     description: `Spearheaded improvements in ticket resolution efficiency, driving a 50% increase and achieving a remarkable client satisfaction rate exceeding 97%. Developed and implemented automation scripts to streamline IT processes, reducing workload and enhancing user experience.`,
-    technologies: ['Admin', 'KB Author', 'Apps', 'Security', 'Automation'],
+    technologies: ['Admin', 'KB Author', 'Apps', 'Security', 'Automation', 'Meetings', 'SLA'],
   },
   {
     year: '2018 - 2019',
     role: 'Help Desk Analyst',
     company: 'HCL Technologies',
     description: `Exemplified exceptional customer service, consistently surpassing targets with a client satisfaction rate over 90%. Managed escalations with precision, ensuring near-perfect case closure and timely follow-ups. Demonstrated expertise in user account administration, MFA, and Salesforce systems management.`,
-    technologies: ['Tickets', 'AD', 'MFA', 'SSO', 'VPN'],
+    technologies: ['Tickets', 'AD', 'MFA', 'SSO', 'VPN', 'Mobile', 'SLA'],
   },
 ];
 
@@ -59,22 +67,22 @@ export const EDUCATION = [
   {
     year: '2022 - 2023',
     major: 'Software Engineering',
-    degree: ['Professional Degree', '2-Year Program', 'Bootcamp'],
-    university: 'Software University - Sofia, BG',
-    notable: ['Perfect GPA (6.00/6.00)', 'Best Angular Project out of 500+ projects'],
+    degree: 'Professional Degree, 2-Year Program, Bootcamp',
+    university: 'Software University Sofia, BG',
+    notable: ['Perfect GPA', 'Best Angular Project (500+)'],
   },
   {
     year: '2017 - 2018',
     major: 'Mechanical Engineering',
-    degree: ['Master of Science (MSc)'],
-    university: 'Coventry University - Coventry, UK',
+    degree: 'Master of Science (MSc)',
+    university: 'Coventry University, UK',
     notable: ['Graduated with Merit'],
   },
   {
     year: '2012 - 2017',
     major: 'Mechanical Engineering',
     degree: 'Bachelor of Science (BSc)',
-    university: 'Technical University of Sofia',
+    university: 'Technical University of Sofia, BG',
     notable: [],
   },
 ];
