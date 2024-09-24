@@ -94,12 +94,12 @@ const Contact = () => {
                             value={formData.message} onChange={handleChange} required
                             className='w-full p-2 bg-slate-200 rounded-md text-black outline-none active:outline-none'
                             whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 80 }}
-                            transition={{ duration: 1, delay: 0.6 }}
+                            transition={{ duration: 0.7, delay: 0.6 }}
                         ></motion.textarea>
                         {!loading && <motion.button type='submit'
                             className={`text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mt-8 mx-auto flex items-center rounded-md`}
                             whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }}
-                            transition={{ duration: 0.5, delay: 1 }}>
+                            transition={{ duration: 0.5, delay: 0.8 }}>
                             Let's Collaborate
                         </motion.button>}
                         {loading && <div
