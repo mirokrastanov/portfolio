@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TbMailFilled } from "react-icons/tb";
 import { FaFileDownload } from "react-icons/fa";
 import NavIconWrapper from './shared/NavIconWrapper';
+import { URLs } from '../constants';
 
 
 const Navbar = () => {
@@ -19,14 +20,6 @@ const Navbar = () => {
         l: 'max-md-500:mx-0',
         i: 'max-md-500:mr-0'
     };
-
-    const URLs = {
-        LinkedIn: 'https://www.linkedin.com/in/mkrastanov/',
-        GitHub: 'https://github.com/mirokrastanov',
-        Email: 'mailto:m.krastanov@outlook.com',
-        Resume: 'https://drive.google.com/uc?export=download&id=1ZLKdD4Dm_8UsiFFb3ubMgr_3GGTMCTGh',
-    };
-    // TODO: Add those to constants
 
     const handleNavBtnCLick = (e, tooltip) => {
         e.preventDefault();
