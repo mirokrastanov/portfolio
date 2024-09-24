@@ -10,10 +10,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollReminder from './components/shared/ScrollReminder';
 import { Toaster } from 'react-hot-toast';
+import Education from './components/Education';
 
 const App = () => {
-  // ' container mx-auto px-8 max-md-500:px-4 max-md-300:ml-0 ';
-
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
       <BackgroundGradient />
@@ -25,8 +24,9 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
-        <Experience />
         <Projects />
+        <Experience />
+        <Education />
         <Contact />
         <Footer />
       </div>
