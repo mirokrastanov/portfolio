@@ -14,16 +14,16 @@ const Experience = () => {
             </motion.h1>
             <div>
                 {EXPERIENCES.map((xp, i) => (
-                    <article key={i} className='mb-8 flex flex-wrap lg:justify-center' >
+                    <article key={i} className='mb-8 flex flex-wrap md:justify-center' >
                         <motion.section
-                            className='w-full lg:w-1/4'
+                            className='w-full md:w-1/4'
                             whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1 }}>
                             <p className='mb-2 text-sm text-neutral-400'>{xp.year}</p>
                         </motion.section>
 
                         <motion.section
-                            className='w-full max-w-xl lg:w-3/4'
+                            className='w-full max-w-xl md:w-3/4'
                             whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}>
                             <h6 className='mb-2 font-semibold'>
