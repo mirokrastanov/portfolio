@@ -60,6 +60,21 @@ const Projects = () => {
                         </motion.section>
                     </article>
                 ))}
+
+                {/* More Projects */}
+                <div className='mt-4 pb-4 flex flex-wrap w-full justify-center items-center gap-4'>
+                    <motion.button onClick={(e) => handleBtns(e, 'https://github.com/mirokrastanov/')}
+                        className={`text-white border-2 hover:bg-purple-600 hover:border-purple-600 px-4 py-2 flex items-center rounded-md text-xl`}
+                        whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
+                        transition={{
+                            type: "spring", // Use a spring for a natural bounce
+                            damping: 10,    // Less damping means more bounce
+                            stiffness: 80, // Higher stiffness means faster initial movement
+                            delay: 0.7,
+                        }}>
+                        <FaGithub className='mr-2 text-xl' /> More Projects
+                    </motion.button>
+                </div>
             </div>
         </div>
     )
