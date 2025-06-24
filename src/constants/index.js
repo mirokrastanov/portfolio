@@ -76,7 +76,7 @@ export const EDUCATION = [
     major: 'Software Engineering',
     degree: 'Professional Bootcamp, Comprehensive 1.5-Year Program',
     university: 'Software University (@SoftUni), BG',
-    notable: ['Perfect GPA', 'Award: ✨Best Angular Project (500+)'],
+    notable: ['Perfect GPA', '🏆 Award: Best Angular Project (500+)'],
   },
   {
     year: '2017 - 2018',
@@ -102,5 +102,9 @@ export const URLs = {
   LinkedIn: 'https://www.linkedin.com/in/mkrastanov/',
   GitHub: 'https://github.com/mirokrastanov',
   Email: 'mailto:m.krastanov@outlook.com',
-  Resume: 'https://drive.google.com/uc?export=download&id=18aVPd5TXGfy_prtjIrKx3BNVfFI80_H2',
+  // Short 2025 single page version
+  Resume: 'https://drive.google.com/uc?export=download&id=1qXjxHkl1wFuQhSvj-1iE-pIkrMcHcbHB',
+
+  // Comprehensive 2024 version
+  // Resume: 'https://drive.google.com/uc?export=download&id=18aVPd5TXGfy_prtjIrKx3BNVfFI80_H2', 
 };
