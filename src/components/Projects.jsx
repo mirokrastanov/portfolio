@@ -45,15 +45,15 @@ const Projects = () => {
                             </div>
                             <div className='mt-4 flex flex-wrap w-full justify-center items-center gap-4'>
                                 <motion.button onClick={(e) => handleBtns(e, p.demo)}
-                                    className={`text-white border-2 hover:bg-purple-600 hover:border-purple-600 px-2 py-2 flex items-center rounded-md transition-all`}
+                                    className={`text-white border-2 hover:bg-purple-600 hover:border-purple-600 px-2 py-2 flex items-center rounded-md`}
                                     whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }}
-                                    transition={{ duration: 0.5, delay: 0.5 }}>
+                                    transition={{ duration: 0.8, delay: 0.5 }}>
                                     <FaPlay className='mr-2' /> Try Demo
                                 </motion.button>
                                 <motion.button onClick={(e) => handleBtns(e, p.code)}
-                                    className={`text-white border-2 hover:bg-purple-600 hover:border-purple-600 px-2 py-2 flex items-center rounded-md transition-all`}
+                                    className={`text-white border-2 hover:bg-purple-600 hover:border-purple-600 px-2 py-2 flex items-center rounded-md`}
                                     whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
-                                    transition={{ duration: 0.5, delay: 0.5 }}>
+                                    transition={{ duration: 0.8, delay: 0.5 }}>
                                     <FaGithub className='mr-2 text-xl' /> View Code
                                 </motion.button>
                             </div>
