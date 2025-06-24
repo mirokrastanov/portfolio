@@ -48,6 +48,13 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
+    year: '2023 - Ongoing',
+    role: 'Independent Full Stack Developer',
+    company: 'Self-Employed',
+    description: `Delivered high-quality freelance and personal MERN stack projects, showcasing versatility across full-stack development. Engineered 20+ modern UIs and 10+ scalable backend services, alongside 50+ smaller applications. Automated deployments through CI/CD pipelines, Docker, Terraform, and cloud integrations. Earned top recognition with the “Best Angular Project” award among 500+ entries, leading to a feature on SoftUni's learning platform.`,
+    technologies: ['Frontend', 'Backend', 'Development', 'Testing', 'APIs', 'Auth', 'UI/UX', 'Performance', 'Responsive Design', 'SEO', 'Automation'],
+  },
+  {
     year: '2019 - 2022',
     role: 'End User Services Engineer',
     company: 'Premier Research',
@@ -67,9 +74,9 @@ export const EDUCATION = [
   {
     year: '2022 - 2023',
     major: 'Software Engineering',
-    degree: 'Professional Degree, 2-Year Program, Bootcamp',
-    university: 'Software University Sofia, BG',
-    notable: ['Perfect GPA', 'Best Angular Project (500+)'],
+    degree: 'Professional Bootcamp, Comprehensive 1.5-Year Program',
+    university: 'Software University (@SoftUni), BG',
+    notable: ['Perfect GPA', 'Award: ✨Best Angular Project (500+)'],
   },
   {
     year: '2017 - 2018',
