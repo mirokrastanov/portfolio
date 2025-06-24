@@ -5,10 +5,10 @@ import {
     SiJest, SiMongodb, SiPlaywright, SiPuppeteer,
     SiTypescript
 } from 'react-icons/si';
-import { FaAngular, FaNodeJs } from 'react-icons/fa';
-import { RiNextjsLine, RiReactjsLine } from 'react-icons/ri';
+import { FaAngular, FaDocker, FaNodeJs } from 'react-icons/fa';
+import { RiNextjsLine, RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { DiMsqlServer } from 'react-icons/di';
-import { TbSql } from 'react-icons/tb';
+import { TbApi, TbSql } from 'react-icons/tb';
 import { motion } from "framer-motion";
 
 
@@ -32,6 +32,7 @@ const Technologies = () => {
                 <TechIcon Icon={SiJavascript} color={'text-yellow-400'} title={'JavaScript'} duration={2} delay={0.3} />
                 <TechIcon Icon={SiHtml5} color={'text-orange-600'} title={'HTML5'} duration={6} delay={0.4} />
                 <TechIcon Icon={SiCss3} color={'text-blue-500'} title={'CSS3'} duration={3.5} delay={0.5} />
+                <TechIcon Icon={RiTailwindCssFill} color={'text-sky-500'} title={'Tailwind CSS'} duration={3} delay={0.6} />
                 <TechIcon Icon={SiPuppeteer} color={'text-white'} title={'Puppeteer.js'} duration={2.5} delay={0.6} />
                 <TechIcon Icon={FaNodeJs} color={'text-green-500'} title={'Node.js'} duration={2} delay={0.7} />
                 <TechIcon Icon={SiExpress} color={'text-gray-500'} title={'Express.js'} duration={4} delay={0.8} />
@@ -40,6 +41,8 @@ const Technologies = () => {
                 <TechIcon Icon={TbSql} color={'text-sky-600'} title={'SQL'} duration={2.5} delay={1.1} />
                 <TechIcon Icon={SiPlaywright} color={'text-green-500'} title={'Playwright'} duration={4} delay={1.2} />
                 <TechIcon Icon={SiJest} color={'text-red-500'} title={'Jest'} duration={3} delay={1.3} />
+                <TechIcon Icon={FaDocker} color={'text-blue-600'} title={'Docker'} duration={2.5} delay={1.4} />
+                <TechIcon Icon={TbApi} color={'text-slate-300'} title={'REST APIs'} duration={3.5} delay={1.5} />
             </motion.article>
         </div>
     </>)
