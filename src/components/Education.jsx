@@ -39,8 +39,8 @@ const Education = () => {
                             <div className='flex flex-wrap gap-2'>
                                 {edu.notable.map((notable, i) => (
                                     <motion.span key={i} className='rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-pink-500 border border-neutral-800 mb-4'
-                                        whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }}
-                                        transition={{ duration: 1, delay: Number(`0.${2 + i}`) }}>
+                                        whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 + (i * 50) }}
+                                        transition={{ duration: 1, delay: Number(`0.${2 + i * 2}`) }}>
                                         {notable}
                                     </motion.span>
                                 ))}
