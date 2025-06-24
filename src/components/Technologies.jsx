@@ -6,7 +6,7 @@ import {
     SiTypescript
 } from 'react-icons/si';
 import { FaAngular, FaNodeJs } from 'react-icons/fa';
-import { RiReactjsLine } from 'react-icons/ri';
+import { RiNextjsLine, RiReactjsLine } from 'react-icons/ri';
 import { DiMsqlServer } from 'react-icons/di';
 import { TbSql } from 'react-icons/tb';
 import { motion } from "framer-motion";
@@ -26,6 +26,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}>
                 <TechIcon Icon={RiReactjsLine} color={'text-cyan-500'} title={'React.js'} duration={2.5} delay={0} />
+                <TechIcon Icon={RiNextjsLine} color={'text-white'} title={'Next.js'} duration={2} delay={0} />
                 <TechIcon Icon={FaAngular} color={'text-red-600'} title={'Angular'} duration={3} delay={0.1} />
                 <TechIcon Icon={SiTypescript} color={'text-blue-700'} title={'TypeScript'} duration={4} delay={0.2} />
                 <TechIcon Icon={SiJavascript} color={'text-yellow-400'} title={'JavaScript'} duration={2} delay={0.3} />
